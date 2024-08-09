@@ -3,11 +3,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <!-- This dependency deliberately refers to 8.* rather than a specific
-         version, to ensure that the hello-dotnet demo always uses the latest
-         public release of the SDK. -->
-    <PackageReference Include="LaunchDarkly.ServerSdk" Version="8.*" />
+    <PackageReference Include="LaunchDarkly.ServerSdk" Version="8.5.1" />
   </ItemGroup>
 </Project>
