@@ -25,8 +25,8 @@ namespace HelloDotNet
         {
             bool CI = Environment.GetEnvironmentVariable("CI") != null;
 
-            // string SdkKey = Environment.GetEnvironmentVariable("LAUNCHDARKLY_SDK_KEY");
-            string SdkKey = "sdk-14077313-9cff-4dbb-bc59-fb6c89ad1cae";
+            string SdkKey = Environment.GetEnvironmentVariable("LAUNCHDARKLY_SDK_KEY");
+            // string SdkKey = "";
 
             // Set FeatureFlagKey to the feature flag key you want to evaluate.
             string FeatureFlagKey = "sample-feature";
